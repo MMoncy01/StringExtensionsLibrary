@@ -1,0 +1,10 @@
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\bin\Debug\TestStringExtensionApp.exe.config
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\bin\Debug\TestStringExtensionApp.exe
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\bin\Debug\TestStringExtensionApp.pdb
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\bin\Debug\StringExtensionsLibrary.dll
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\bin\Debug\StringExtensionsLibrary.pdb
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\obj\Debug\TestStringExtensionApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\obj\Debug\TestStringExtensionApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\obj\Debug\TestStri.620D9F27.Up2Date
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\obj\Debug\TestStringExtensionApp.exe
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\TestStringExtensionApp\obj\Debug\TestStringExtensionApp.pdb
