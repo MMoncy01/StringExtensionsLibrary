@@ -29,10 +29,11 @@ jobs:
 
     - name: Configure NuGet with Azure DevOps Token
       run: |
+        dotnet nuget remove source AzureDevOps || true
         dotnet nuget add source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" `
           --name AzureDevOps `
           --username anything `
-          --password ${{ secrets.AZURE_DEVOPS_TOKEN }} `
+          --password "${{ secrets.AZURE_DEVOPS_TOKEN }}" `
           --store-password-in-clear-text
 
 
