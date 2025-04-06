@@ -31,9 +31,9 @@ jobs:
       shell: powershell
       run: |
         try {
-          dotnet nuget remove source AzureDevOps -Force
+          dotnet nuget remove source AzureDevOps
         } catch {
-          Write-Host "AzureDevOps source not found or already removed."
+          Write-Host "AzureDevOps source not found, continuing..."
         }
 
         dotnet nuget add source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" `
