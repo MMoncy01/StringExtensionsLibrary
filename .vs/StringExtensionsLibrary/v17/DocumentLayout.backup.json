@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": ".github\\workflows\\ci.yml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.github\\workflows\\ci.yml",
               "RelativeToolTip": ".github\\workflows\\ci.yml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwCYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-04-06T19:23:58.971Z",
               "EditorCaption": ""
@@ -77,9 +77,10 @@
               "RelativeDocumentMoniker": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
               "RelativeToolTip": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T02:23:49.447Z"
+              "WhenOpened": "2025-04-06T02:23:49.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
