@@ -25,7 +25,8 @@ jobs:
       run: dotnet build ./StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release
 
     - name: Pack NuGet Package
-      run: dotnet pack ./StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release --output ${{ github.workspace }}/nupkgs
+      run: dotnet pack StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o StringExtensionsLibrary/nupkgs
+
 
     - name: Configure NuGet with Azure DevOps Token
       shell: powershell
