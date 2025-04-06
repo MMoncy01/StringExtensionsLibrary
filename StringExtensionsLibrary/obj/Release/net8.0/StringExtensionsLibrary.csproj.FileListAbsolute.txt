@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\bin\Release\net8.0\StringExtensionsLibrary.deps.json
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\bin\Release\net8.0\StringExtensionsLibrary.dll
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\bin\Release\net8.0\StringExtensionsLibrary.pdb
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.AssemblyInfo.cs
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.dll
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\refint\StringExtensionsLibrary.dll
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\StringExtensionsLibrary.pdb
+C:\Users\HP\Desktop\Devops\StringExtensionsLibrary\StringExtensionsLibrary\obj\Release\net8.0\ref\StringExtensionsLibrary.dll
