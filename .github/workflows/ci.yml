@@ -30,4 +30,4 @@ jobs:
 
 
     - name: Push to Azure Artifacts Feed
-      run: dotnet nuget push ./nupkgs/*.nupkg --source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" --api-key AzureArtifacts
+      run: dotnet nuget push ./nupkgs/*.nupkg --source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" --api-key ${{ secrets.AZURE_DEVOPS_TOKEN }}
