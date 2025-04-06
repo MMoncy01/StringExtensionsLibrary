@@ -19,13 +19,13 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./StringExtensionsLibrary/StringExtensionsLibrary.csproj
 
     - name: Build the project
-      run: dotnet build --configuration Release
+      run: dotnet build ./StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release
 
     - name: Pack NuGet Package
-      run: dotnet pack StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
+      run: dotnet pack ./StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release --output ${{ github.workspace }}/nupkgs
 
     - name: Configure NuGet with Azure DevOps Token
       shell: powershell
@@ -44,4 +44,4 @@ jobs:
 
 
     - name: Push to Azure Artifacts Feed
-      run: dotnet nuget push ./nupkgs/*.nupkg --source AzureDevOps --api-key AzureArtifacts
+      run: dotnet nuget push ${{ github.workspace }}/nupkgs/*.nupkg --source AzureDevOps --api-key AzureArtifacts
