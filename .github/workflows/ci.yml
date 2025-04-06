@@ -28,6 +28,7 @@ jobs:
       run: dotnet pack StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
 
     - name: Configure NuGet with Azure DevOps Token
+      shell: bash
       run: |
         dotnet nuget add source https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json \
           --name AzureDevOps \
