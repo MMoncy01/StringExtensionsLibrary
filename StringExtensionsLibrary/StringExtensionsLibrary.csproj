@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		
 		<PackageId>StringExtensionsLibrary</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>MMoncy01</Authors>
