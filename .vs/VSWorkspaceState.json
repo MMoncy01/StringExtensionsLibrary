@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.git",
     "\\.github",
     "\\.github\\workflows",
-    "\\Local settings (.vs)",
+    "\\StringExtensionsLibrary",
     "\\StringExtensionsLibrary\\obj",
     "\\StringExtensionsLibrary\\obj\\Debug",
     "\\StringExtensionsLibrary\\obj\\Debug\\net8.0",
     "\\StringExtensionsLibrary\\obj\\Debug\\net8.0\\ref",
     "\\StringExtensionsLibrary\\obj\\Debug\\net8.0\\refint"
   ],
-  "SelectedNode": "\\.github",
+  "SelectedNode": "\\StringExtensionsLibrary\\obj\\Debug\\net8.0\\refint",
   "PreviewInSolutionExplorer": false
 }
