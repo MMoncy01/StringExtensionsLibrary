@@ -25,7 +25,7 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Pack NuGet Package
-      run: dotnet pack ./StringExtensionsLibrary/StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
+      run: dotnet pack StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
 
 
 
