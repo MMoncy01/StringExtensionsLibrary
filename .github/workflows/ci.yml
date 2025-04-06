@@ -27,7 +27,13 @@ jobs:
     - name: Pack NuGet Package
       run: dotnet pack StringExtensionsLibrary/StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
 
-
+    - name: Configure NuGet with Azure DevOps Token
+      run: |
+        dotnet nuget add source https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json \
+          --name AzureDevOps \
+          --username anything \
+          --password ${{ secrets.AZURE_DEVOPS_TOKEN }} \
+          --store-password-in-clear-text
 
     - name: Push to Azure Artifacts Feed
-      run: dotnet nuget push ./nupkgs/*.nupkg --source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" --api-key ${{ secrets.AZURE_DEVOPS_TOKEN }}
+      run: dotnet nuget push ./nupkgs/*.nupkg --source AzureDevOps --api-key AzureArtifacts
