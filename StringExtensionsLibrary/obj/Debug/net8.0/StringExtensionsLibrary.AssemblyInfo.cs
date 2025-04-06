@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Centennial College")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f7e6a86e8788cd17fc710bb5cea09b57d4fd5a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("StringExtensionsLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringExtensionsLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

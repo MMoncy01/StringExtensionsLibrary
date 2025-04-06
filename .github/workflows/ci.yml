@@ -1,0 +1,31 @@
+name: Build and Push NuGet Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET 8 SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build the project
+      run: dotnet build --configuration Release
+
+    - name: Pack NuGet Package
+      run: dotnet pack ./StringExtensionsLibrary.csproj --configuration Release -o ./nupkgs
+
+    - name: Push to Azure Artifacts Feed
+      run: dotnet nuget push ./nupkgs/*.nupkg --source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" --api-key AzureArtifacts
