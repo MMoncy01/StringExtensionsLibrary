@@ -43,7 +43,11 @@ jobs:
           --password "${{ secrets.AZURE_DEVOPS_TOKEN }}" `
           --store-password-in-clear-text
 
+    - name: List output directory (for debug)
+      run: dir StringExtensionsLibrary/nupkgs
+      shell: pwsh
+
 
     - name: Push to Azure Artifacts Feed
-      run: dotnet nuget push "${{ github.workspace }}/nupkgs/*.nupkg" --source AzureDevOps --api-key AzureArtifacts
+      run: dotnet nuget push StringExtensionsLibrary/nupkgs/*.nupkg --source AzureDevOps --api-key AzureArtifacts
 
