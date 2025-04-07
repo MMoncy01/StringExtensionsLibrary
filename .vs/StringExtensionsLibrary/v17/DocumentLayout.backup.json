@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.github\\workflows\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{F18A1A11-22EC-430C-89E5-FD15436C5CE0}|StringExtensionsConsoleApp\\StringExtensionsConsoleApp.csproj|c:\\users\\hp\\desktop\\devops\\stringextensionslibrary\\stringextensionsconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18A1A11-22EC-430C-89E5-FD15436C5CE0}|StringExtensionsConsoleApp\\StringExtensionsConsoleApp.csproj|solutionrelative:stringextensionsconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StringExtensionsLibrary\\StringExtensionsLibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\remotes\\origin\\main||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.git\\refs\\remotes\\origin\\main||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\heads\\main||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.git\\refs\\heads\\main||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StringExtensionsLibrary\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F45BBE0-14E3-4C85-81D6-CBBF8E60796D}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|c:\\users\\hp\\desktop\\devops\\stringextensionslibrary\\stringextensionslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F45BBE0-14E3-4C85-81D6-CBBF8E60796D}|StringExtensionsLibrary\\StringExtensionsLibrary.csproj|solutionrelative:stringextensionslibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ci.yml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.github\\workflows\\ci.yml",
-              "RelativeDocumentMoniker": ".github\\workflows\\ci.yml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.github\\workflows\\ci.yml",
-              "RelativeToolTip": ".github\\workflows\\ci.yml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-04-06T19:23:58.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\remotes\\origin\\main",
-              "RelativeDocumentMoniker": ".git\\refs\\remotes\\origin\\main",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\remotes\\origin\\main",
-              "RelativeToolTip": ".git\\refs\\remotes\\origin\\main",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-06T19:19:54.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\heads\\main",
-              "RelativeDocumentMoniker": ".git\\refs\\heads\\main",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\.git\\refs\\heads\\main",
-              "RelativeToolTip": ".git\\refs\\heads\\main",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-06T19:19:51.517Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StringExtensionsLibrary.csproj",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-              "RelativeDocumentMoniker": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-              "RelativeToolTip": "StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T02:23:49.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "StringExtensionsLibrary\\Class1.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\Class1.cs",
               "RelativeToolTip": "StringExtensionsLibrary\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T02:14:04.68Z"
+              "WhenOpened": "2025-04-07T19:21:22.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "StringExtensionsConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\Program.cs",
+              "RelativeToolTip": "StringExtensionsConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:07:09.435Z",
+              "EditorCaption": ""
             }
           ]
         }

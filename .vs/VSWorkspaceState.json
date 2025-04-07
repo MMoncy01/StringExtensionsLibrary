@@ -1,15 +1,5 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\.github",
-    "\\.github\\workflows",
-    "\\StringExtensionsLibrary",
-    "\\StringExtensionsLibrary\\bin",
-    "\\StringExtensionsLibrary\\obj",
-    "\\StringExtensionsLibrary\\obj\\Debug",
-    "\\StringExtensionsLibrary\\obj\\Debug\\net8.0",
-    "\\StringExtensionsLibrary\\obj\\Debug\\net8.0\\ref",
-    "\\StringExtensionsLibrary\\obj\\Debug\\net8.0\\refint"
-  ],
+  "ExpandedNodes": [],
+  "SelectedNode": "\\StringExtensionsLibrary.sln",
   "PreviewInSolutionExplorer": false
 }

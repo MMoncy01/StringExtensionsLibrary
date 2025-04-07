@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8MZHD6Z8BJ4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\StringExtensionsConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\stringextensionslibrary\\1.0.2\\stringextensionslibrary.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

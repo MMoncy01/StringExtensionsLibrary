@@ -1,11 +1,35 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "StringExtensionsLibrary/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/StringExtensionsLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/StringExtensionsLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StringExtensionsLibrary/1.0.2": {
+      "sha512": "1wZslHBe8oJCoGwcaK/itrWhrMZmJ26VYTbCXBEIA7S1dX7ODQze5LExPU/98p3MVWEpiujmKkp5W60+9e7x9Q==",
+      "type": "package",
+      "path": "stringextensionslibrary/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/StringExtensionsLibrary.dll",
+        "stringextensionslibrary.1.0.2.nupkg.sha512",
+        "stringextensionslibrary.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "StringExtensionsLibrary >= 1.0.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\HP\\.nuget\\packages\\": {},
@@ -14,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
-      "projectName": "StringExtensionsLibrary",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\StringExtensionsLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\StringExtensionsConsoleApp.csproj",
+      "projectName": "StringExtensionsConsoleApp",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\StringExtensionsConsoleApp.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsLibrary\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Devops\\StringExtensionsLibrary\\StringExtensionsConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +81,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "StringExtensionsLibrary": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
