@@ -40,11 +40,15 @@ jobs:
         dotnet nuget add source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" `
           --name AzureDevOps `
           --username anything `
-          --password "${{ secrets.AZURE_DEVOPS_TOKEN }}" `
+          --password "${{ secrets.BF4ubA7RjZvHC87zfGIqzSlMp029JViv4UH1S9IBk6fUdRcO2opdJQQJ99BDACAAAAAnPw96AAASAZDOE8RK }}" `
           --store-password-in-clear-text
 
-    - name: List output directory (for debug)
+    - name: List packed NuGet files (debug)
       run: dir StringExtensionsLibrary\nupkgs
+
+    - name: Push to Azure Artifacts Feed
+      run: dotnet nuget push StringExtensionsLibrary\nupkgs\*.nupkg --source AzureDevOps --api-key AzureArtifacts
+
 
 
 
