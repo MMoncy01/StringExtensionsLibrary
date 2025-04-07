@@ -44,8 +44,8 @@ jobs:
           --store-password-in-clear-text
 
     - name: List output directory (for debug)
-      run: dir StringExtensionsLibrary/nupkgs
-      shell: pwsh
+      run: dir StringExtensionsLibrary\nupkgs
+
 
 
     - name: Push to Azure Artifacts Feed
