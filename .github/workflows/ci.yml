@@ -40,7 +40,7 @@ jobs:
         dotnet nuget add source "https://pkgs.dev.azure.com/MariyaOrganization/StringExtensionsCI/_packaging/StringExtensionsFeed/nuget/v3/index.json" `
           --name AzureDevOps `
           --username anything `
-          --password "${{ secrets.BF4ubA7RjZvHC87zfGIqzSlMp029JViv4UH1S9IBk6fUdRcO2opdJQQJ99BDACAAAAAnPw96AAASAZDOE8RK }}" `
+          --password "${{ secrets.AZURE_DEVOPS_TOKEN }}" `
           --store-password-in-clear-text
 
     - name: List packed NuGet files (debug)
