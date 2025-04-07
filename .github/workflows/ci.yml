@@ -53,5 +53,6 @@ jobs:
 
 
     - name: Push to Azure Artifacts Feed
-      run: dotnet nuget push StringExtensionsLibrary/nupkgs/*.nupkg --source AzureDevOps --api-key AzureArtifacts --skip-duplicate
+      run: dotnet nuget push StringExtensionsLibrary\nupkgs\*.nupkg --source AzureDevOps --api-key AzureArtifacts --skip-duplicate
+
 
